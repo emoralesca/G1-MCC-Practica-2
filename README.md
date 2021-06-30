@@ -1,2 +1,10 @@
-# G1-MCC-Practica-2
-Tree AVL and B-Tree
+# Grupo Nro. 1:
+
+## Práctica Nro. 2: Arboles
+
+### Integrantes:
+
+- Jorge Llanos:
+- Edwin Morales:
+- Henry Culi:
+- Fredy Huanca:
