@@ -2,3 +2,13 @@
 /*variable
 // ejemplo
 
+
+
+// insertar
+
+
+
+
+
+
+
