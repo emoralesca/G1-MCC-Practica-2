@@ -1,4 +1,4 @@
-// Copyright 2011 David Galles, University of San Francisco. All rights reserved.
+﻿// Copyright 2011 David Galles, University of San Francisco. All rights reserved.
 //
 // Se permite la redistribución y el uso en formato fuente y binario, con o sin 
 // modificaciones, siempre que se cumplan las siguientes condiciones:
@@ -902,7 +902,7 @@ AVL.prototype.treeDelete = function (tree, valueToDelete) {
         this.cmd(
           "SetText",
           0,
-          "Node to delete has two childern.  \nFind largest node in left subtree."
+          "Nodo a borrar tiene dos hijos.  \nFind largest node in left subtree."
         );
 
         this.highlightID = this.nextIndex;
