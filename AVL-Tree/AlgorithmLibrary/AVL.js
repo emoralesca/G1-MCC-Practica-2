@@ -902,7 +902,7 @@ AVL.prototype.treeDelete = function (tree, valueToDelete) {
         this.cmd(
           "SetText",
           0,
-          "Nodo a borrar tiene dos hijos.  \nFind largest node in left subtree."
+          "Node to delete has no two children.  \nFind largest node in left subtree."
         );
 
         this.highlightID = this.nextIndex;
