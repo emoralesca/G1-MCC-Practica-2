@@ -121,12 +121,11 @@ BTree.prototype.addControls =  function()
 	this.clearButton.onclick = this.clearCallback.bind(this);
 	this.controls.push(this.clearButton);
 
-	var i;
+	var i = 3;
 	radioButtonNames = [];
-	for (i = MIN_MAX_DEGREE; i <= MAX_MAX_DEGREE; i++)
-	{
-		radioButtonNames.push("Maximo grado = " + String(i));
-	}
+	
+
+	radioButtonNames.push("Grado maximo = " + String(i));
 
 	this.maxDegreeRadioButtons = addRadioButtonGroupToAlgorithmBar(radioButtonNames, "MaxDegree");
 
@@ -137,7 +136,7 @@ BTree.prototype.addControls =  function()
 	}
 
 
-	this.premptiveSplitBox = addCheckboxToAlgorithmBar("Split previo / Merge (unicamente grado maximo)");
+	this.premptiveSplitBox = addCheckboxToAlgorithmBar("");
 	this.premptiveSplitBox.onclick = this.premtiveSplitCallback.bind(this);
 
 
